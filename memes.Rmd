@@ -1,0 +1,19 @@
+---
+title: "1006 Memes"
+author: "Debi Gonzalez"
+date: "4/22/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(memer)
+```
+
+
+```{r}
+meme_get("TheRockDriving") %>% 
+  meme_text_rock("Well, now classes are pass/fail", 
+                 "Email the authors!!!")
+```
+
